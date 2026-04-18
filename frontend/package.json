@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx --yes fix-react2shell-next && next build",
+    "build": "npx --yes fix-react2shell-next --fix && next build",
     "start": "next start",
     "lint": "next lint"
   },
