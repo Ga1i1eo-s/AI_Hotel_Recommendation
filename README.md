@@ -87,6 +87,19 @@ Set frontend API base URL:
 - Copy `frontend/.env.local.example` to `frontend/.env.local`
 - Ensure `NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000`
 
+### Deploy Frontend to Vercel
+
+The Next.js frontend is fully optimized for Vercel deployment. 
+
+1. Push your repository to GitHub.
+2. In [Vercel](https://vercel.com/), create a new project and import your repository.
+3. In the project configuration:
+   - **Framework Preset**: Vercel will automatically detect `Next.js`.
+   - **Root Directory**: Click `Edit` and select `frontend`.
+4. Open the **Environment Variables** section and add:
+   - `NEXT_PUBLIC_API_BASE_URL` = `<your_deployed_backend_url>`
+5. Click **Deploy**.
+
 ## Streamlit Backend Deployment
 
 The repository now includes a Streamlit backend console in `streamlit_app.py` for deploying backend recommendation workflow on Streamlit Cloud.
