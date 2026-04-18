@@ -1,0 +1,201 @@
+restaurant_id,name,city,area,cuisines,avg_cost_for_two,budget_band,rating,rating_count,attributes,source_updated_at
+0a73fa8b-30c2-5ea5-8e1c-63ebf3604c97,Jalsa,Banashankari,Banashankari,"['North Indian', 'Mughlai', 'Chinese']",800.0,low,4.1,775,{},2026-04-14T16:58:16.338798+00:00
+61cebc14-0d2b-5911-9cca-2d7e5d0ff077,Spice Elephant,Banashankari,Banashankari,"['Chinese', 'North Indian', 'Thai']",800.0,low,4.1,787,{},2026-04-14T16:58:16.338798+00:00
+6d8fe0e2-7ae5-59a7-8ce4-428944d61e14,San Churro Cafe,Banashankari,Banashankari,"['Cafe', 'Mexican', 'Italian']",800.0,low,3.8,918,{},2026-04-14T16:58:16.338798+00:00
+6b893b3e-d2d3-57f7-926c-2143482a8179,Addhuri Udupi Bhojana,Banashankari,Banashankari,"['South Indian', 'North Indian']",300.0,low,3.7,88,{},2026-04-14T16:58:16.338798+00:00
+f0e4cc85-fcc7-552f-aeca-3e7a6d03a5b0,Grand Village,Banashankari,Basavanagudi,"['North Indian', 'Rajasthani']",600.0,low,3.8,166,{},2026-04-14T16:58:16.338798+00:00
+7f4f15e2-f619-570d-8dc3-072108c1a84a,Timepass Dinner,Banashankari,Basavanagudi,['North Indian'],600.0,low,3.8,286,{},2026-04-14T16:58:16.338798+00:00
+d76dac29-9445-547e-83b0-60db0b3bf615,Rosewood International Hotel - Bar & Restaurant,Banashankari,Mysore Road,"['North Indian', 'South Indian', 'Andhra', 'Chinese']",800.0,low,3.6,8,{},2026-04-14T16:58:16.338798+00:00
+f1a56558-b29a-5237-8d87-5c07a735e9bc,Onesta,Banashankari,Banashankari,"['Pizza', 'Cafe', 'Italian']",600.0,low,4.6,2556,{},2026-04-14T16:58:16.338798+00:00
+95dbb843-a26d-50dd-aec2-a6b631893876,Penthouse Cafe,Banashankari,Banashankari,"['Cafe', 'Italian', 'Continental']",700.0,low,4.0,324,{},2026-04-14T16:58:16.338798+00:00
+54f6e66e-7cbd-5c6a-a4a2-974ade13cba8,Smacznego,Banashankari,Banashankari,"['Cafe', 'Mexican', 'Italian', 'Momos', 'Beverages']",550.0,low,4.2,504,{},2026-04-14T16:58:16.338798+00:00
+3f7a8df2-e242-5f2c-a7ec-907bb6829a1d,CafÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© Down The Alley,Banashankari,Banashankari,['Cafe'],500.0,low,4.1,402,{},2026-04-14T16:58:16.338798+00:00
+8fd2c70b-e20f-560b-a429-60c362fec81b,Cafe Shuffle,Banashankari,Banashankari,"['Cafe', 'Italian', 'Continental']",600.0,low,4.2,150,{},2026-04-14T16:58:16.338798+00:00
+7e30675f-0cb1-5465-a976-4869f8971a09,The Coffee Shack,Banashankari,Banashankari,"['Cafe', 'Chinese', 'Continental', 'Italian']",500.0,low,4.2,164,{},2026-04-14T16:58:16.338798+00:00
+146dea77-fa91-50b6-9739-f9d771a72944,Caf-Eleven,Banashankari,Banashankari,"['Cafe', 'Continental']",450.0,low,4.0,424,{},2026-04-14T16:58:16.338798+00:00
+b913de7d-46c9-5439-acad-9332a2021ccb,Cafe Vivacity,Banashankari,Banashankari,['Cafe'],650.0,low,3.8,90,{},2026-04-14T16:58:16.338798+00:00
+4ff13313-47e0-5fbe-ba85-c6eb13da4a44,Catch-up-ino,Banashankari,Banashankari,"['Cafe', 'Fast Food', 'Continental', 'Chinese', 'Momos']",800.0,low,3.9,133,{},2026-04-14T16:58:16.338798+00:00
+28eb21ea-6015-50c0-a038-b5f1fbf02a15,Kirthi's Biryani,Banashankari,Banashankari,"['Chinese', 'Cafe', 'Italian']",700.0,low,3.8,144,{},2026-04-14T16:58:16.338798+00:00
+ab4a469d-60fa-5fb4-8e0a-c61763a26170,T3H Cafe,Banashankari,Banashankari,"['Cafe', 'Italian', 'American']",300.0,low,3.9,93,{},2026-04-14T16:58:16.338798+00:00
+16b42af4-aa86-5b0e-a96c-7bb59d887ca2,360 Atoms Restaurant And Cafe,Banashankari,Banashankari,"['Cafe', 'Chinese', 'Continental', 'Italian']",400.0,low,3.1,13,{},2026-04-14T16:58:16.338798+00:00
+f30614da-2ac0-5864-b415-74f3991a6dcf,The Vintage Cafe,Banashankari,Banashankari,"['Cafe', 'French', 'North Indian']",400.0,low,3.0,62,{},2026-04-14T16:58:16.338798+00:00
+6799dee4-015b-5e4c-9acb-8057fbce7c5f,Woodee Pizza,Banashankari,Banashankari,"['Cafe', 'Pizza', 'Fast Food', 'Beverages']",500.0,low,3.7,180,{},2026-04-14T16:58:16.338798+00:00
+fc153fc8-27f8-5b63-ba7a-ca4509f6353c,Cafe Coffee Day,Banashankari,Banashankari,"['Cafe', 'Fast Food']",900.0,medium,3.6,28,{},2026-04-14T16:58:16.338798+00:00
+9b11a77f-9f59-5771-9163-f5d679c47e9c,My Tea House,Banashankari,Banashankari,"['Italian', 'Fast Food', 'Cafe', 'European']",600.0,low,3.6,62,{},2026-04-14T16:58:16.338798+00:00
+915a4048-3eaa-5817-8644-cc8b9d437e2e,Hide Out Cafe,Banashankari,Banashankari,['Cafe'],300.0,low,3.7,31,{},2026-04-14T16:58:16.338798+00:00
+4e09967d-d1df-5bf3-baa5-996868f96db7,CAFE NOVA,Banashankari,Banashankari,"['Cafe', 'Bakery']",600.0,low,3.2,11,{},2026-04-14T16:58:16.338798+00:00
+e4b65f88-7235-5c30-9b86-4451208f0c9f,Coffee Tindi,Banashankari,Banashankari,"['Cafe', 'South Indian']",200.0,low,3.8,75,{},2026-04-14T16:58:16.338798+00:00
+248ac2f5-99c6-58f7-b056-9a5ba79ad57f,Sea Green Cafe,Banashankari,Banashankari,"['Cafe', 'Fast Food', 'Beverages']",500.0,low,3.3,4,{},2026-04-14T16:58:16.338798+00:00
+e3a86345-8598-524c-a8f6-3bb25193cbe3,Cuppa,Banashankari,Banashankari,"['Cafe', 'Fast Food']",550.0,low,3.3,23,{},2026-04-14T16:58:16.338798+00:00
+e0cc7352-15f9-5ab7-959a-10b91e5c5679,Srinathji's Cafe,Banashankari,Basavanagudi,"['North Indian', 'Cafe', 'Chinese', 'Fast Food']",550.0,low,3.8,148,{},2026-04-14T16:58:16.338798+00:00
+7f27e994-8b62-5e01-95e2-73cb33fab984,Redberrys,Banashankari,Basavanagudi,"['Cafe', 'Italian']",600.0,low,4.0,219,{},2026-04-14T16:58:16.338798+00:00
+828cac64-786c-5fc0-971c-5a6ffc6151f6,Foodiction,Banashankari,Banashankari,"['North Indian', 'Fast Food', 'Chinese', 'Burger']",500.0,low,2.8,506,{},2026-04-14T16:58:16.338798+00:00
+8ab8fe33-308d-5296-b5d1-e258fc8b126f,Sweet Truth,Banashankari,Banashankari,"['Bakery', 'Desserts']",500.0,low,3.9,35,{},2026-04-14T16:58:16.338798+00:00
+9ff0afe3-5d91-5a35-a6a7-f382ceb14613,Ovenstory Pizza,Banashankari,Banashankari,['Pizza'],750.0,low,3.9,172,{},2026-04-14T16:58:16.338798+00:00
+11b93ee9-81f5-5ed9-95d0-2398aa4d3783,Faasos,Banashankari,Banashankari,"['North Indian', 'Biryani', 'Fast Food']",500.0,low,4.2,415,{},2026-04-14T16:58:16.338798+00:00
+e1256ceb-21e9-5560-87a4-b80940cfd3aa,Behrouz Biryani,Banashankari,Banashankari,['Biryani'],650.0,low,3.9,230,{},2026-04-14T16:58:16.338798+00:00
+363ad151-8a37-5b30-9734-174dab6ebb11,Fast And Fresh,Banashankari,Banashankari,"['North Indian', 'Chinese', 'Fast Food']",400.0,low,2.8,91,{},2026-04-14T16:58:16.338798+00:00
+24d3e563-4cff-59a7-a772-21277d8118c7,Szechuan Dragon,Banashankari,Banashankari,"['Chinese', 'Thai', 'Momos']",600.0,low,4.2,1647,{},2026-04-14T16:58:16.338798+00:00
+57323919-c06b-5917-a09e-aea52fea2b26,Empire Restaurant,Banashankari,Jayanagar,"['North Indian', 'Mughlai', 'South Indian', 'Chinese']",750.0,low,4.4,4884,{},2026-04-14T16:58:16.338798+00:00
+30082a56-20cb-5a49-97f5-973523dab073,Maruthi Davangere Benne Dosa,Banashankari,Banashankari,['South Indian'],150.0,low,4.0,17,{},2026-04-14T16:58:16.338798+00:00
+747fcf9c-0573-51e7-b127-513240119805,Chaatimes,Banashankari,Basavanagudi,"['Street Food', 'Fast Food']",200.0,low,3.8,133,{},2026-04-14T16:58:16.338798+00:00
+6aaae7dc-5e68-5605-8cc6-9e0b876cac60,Havyaka Mess,Banashankari,Banashankari,['South Indian'],300.0,low,3.9,28,{},2026-04-14T16:58:16.338798+00:00
+f2584207-b73b-5946-914d-09b2a0085e99,McDonald's,Banashankari,Banashankari,"['Burger', 'Fast Food']",500.0,low,3.9,286,{},2026-04-14T16:58:16.338798+00:00
+506aac4f-781c-527b-b924-31fd7a3a48c4,Domino's Pizza,Banashankari,Banashankari,"['Pizza', 'Fast Food']",800.0,low,3.9,540,{},2026-04-14T16:58:16.338798+00:00
+b09ad3ef-5e4e-5d22-a2ad-1494e76b5469,Hotboxit,Banashankari,Banashankari,"['North Indian', 'Continental', 'Italian']",400.0,low,3.8,36,{},2026-04-14T16:58:16.338798+00:00
+717b1d08-80e8-52b7-88a2-65e5cf10017f,Kitchen Garden,Banashankari,Kumaraswamy Layout,"['North Indian', 'Chinese']",300.0,low,3.6,244,{},2026-04-14T16:58:16.338798+00:00
+6d70aec6-27e6-5671-be8c-e1eca8204845,Recipe,Banashankari,Kumaraswamy Layout,"['North Indian', 'Chinese', 'Biryani', 'Rolls']",450.0,low,4.0,804,{},2026-04-14T16:58:16.338798+00:00
+0f85cbeb-5e2e-570e-9216-01a5cac4a747,Beijing Bites,Banashankari,Rajarajeshwari Nagar,"['Chinese', 'Thai']",850.0,medium,3.7,679,{},2026-04-14T16:58:16.338798+00:00
+2df70b93-e1a0-5cdc-8814-040dfe3332dc,Tasty Bytes,Banashankari,Kumaraswamy Layout,"['North Indian', 'Chinese', 'Momos', 'Rolls']",300.0,low,3.1,245,{},2026-04-14T16:58:16.338798+00:00
+e279ccc5-d94d-5503-bfb9-ce9ad89245a8,Petoo,Banashankari,Banashankari,['North Indian'],450.0,low,3.7,21,{},2026-04-14T16:58:16.338798+00:00
+094e2283-2ff8-5ecb-ae59-dcb5bc01c0bf,Shree Cool Point,Banashankari,Vijay Nagar,"['Fast Food', 'Street Food', 'Beverages']",150.0,low,4.1,28,{},2026-04-14T16:58:16.338798+00:00
+d3ce4da3-f20e-5daf-88ab-27a3987c7576,Corner House Ice Cream,Banashankari,Banashankari,"['Ice Cream', 'Desserts']",400.0,low,4.3,345,{},2026-04-14T16:58:16.338798+00:00
+d7296ccc-bd50-5d67-9328-0a9488edaabc,Biryanis And More,Banashankari,Jayanagar,"['Biryani', 'North Indian', 'Chinese', 'Andhra', 'South Indian']",750.0,low,4.0,618,{},2026-04-14T16:58:16.338798+00:00
+a3765ef9-a7ec-51db-a4fb-958744358196,Roving Feast,Banashankari,Banashankari,"['Italian', 'Continental', 'Fast Food', 'Chinese', 'Momos']",450.0,low,4.0,1047,{},2026-04-14T16:58:16.338798+00:00
+07d00ecf-a581-51c5-8fd3-64c24a31ec59,FreshMenu,Banashankari,Banashankari,"['Healthy Food', 'Chinese', 'Biryani', 'North Indian', 'Continental', 'Salad', 'American', 'Burger']",450.0,low,3.9,627,{},2026-04-14T16:58:16.338798+00:00
+67def444-4000-5f22-9803-e17fe921145f,Banashankari Donne Biriyani,Banashankari,Banashankari,"['Biryani', 'Fast Food']",300.0,low,3.8,104,{},2026-04-14T16:58:16.338798+00:00
+d7f198e6-0df6-5c6e-8b2b-b76610f347ce,Wamama,Banashankari,Banashankari,"['Asian', 'Korean', 'Indonesian', 'Japanese', 'Chinese', 'Thai', 'Momos']",800.0,low,4.2,354,{},2026-04-14T16:58:16.338798+00:00
+dbd8f51f-451d-51bd-b387-d1b7e0a3107b,Five Star Chicken,Banashankari,Banashankari,"['Fast Food', 'Burger']",200.0,low,3.6,55,{},2026-04-14T16:58:16.338798+00:00
+da14e30f-56f9-555a-bee8-d2f4c20a0187,XO Belgian Waffle,Banashankari,Banashankari,"['Desserts', 'Beverages']",400.0,low,3.7,17,{},2026-04-14T16:58:16.338798+00:00
+7f382621-b86f-5780-9e02-39565cf55522,Peppy Peppers,Banashankari,Banashankari,"['Italian', 'North Indian', 'Mexican']",800.0,low,4.2,244,{},2026-04-14T16:58:16.338798+00:00
+38419593-2f2c-5b60-a4c5-a7042c3c63a2,Goa 0 Km,Banashankari,Kumaraswamy Layout,"['Goan', 'Seafood', 'North Indian', 'Chinese', 'Biryani']",800.0,low,3.6,163,{},2026-04-14T16:58:16.338798+00:00
+f60ecc8c-0bca-57a6-ba5e-b66c5232bbf8,Chinese Kitchen,Banashankari,Basavanagudi,['Chinese'],150.0,low,3.8,58,{},2026-04-14T16:58:16.338798+00:00
+f1a5f9f9-30c2-53f6-89e1-919ccbeaef17,1947,Banashankari,Banashankari,"['North Indian', 'Chinese']",850.0,medium,4.0,808,{},2026-04-14T16:58:16.338798+00:00
+079d8c4b-de15-571c-accd-15e982f61071,Cake of the Day,Banashankari,Banashankari,['Bakery'],150.0,low,3.7,78,{},2026-04-14T16:58:16.338798+00:00
+71d4f633-6a7e-5be4-9c2c-4328816f655f,Kabab Magic,Banashankari,Basavanagudi,"['North Indian', 'Kebab', 'Chinese', 'Fast Food']",400.0,low,4.1,1720,{},2026-04-14T16:58:16.338798+00:00
+6e47dd6c-44ac-565b-b546-32fef21943d6,Namma Brahmin's Idli,Banashankari,Jayanagar,['South Indian'],100.0,low,3.6,34,{},2026-04-14T16:58:16.338798+00:00
+4dbc8f2f-7028-59a8-9438-ecde6fbda9ca,Gustoes Beer House,Banashankari,Banashankari,"['Continental', 'Italian', 'Mexican', 'North Indian', 'Chinese', 'Steak']",1.0,low,4.1,868,{},2026-04-14T16:58:16.338798+00:00
+f5570d8b-8add-5f3b-ad91-934ba3af8f5a,Sugar Rush,Banashankari,Banashankari,"['Bakery', 'Desserts']",300.0,low,3.8,39,{},2026-04-14T16:58:16.338798+00:00
+54dde6ed-0700-5128-bad7-284967a0af82,Burger King,Banashankari,Basavanagudi,"['Burger', 'Fast Food', 'Beverages']",600.0,low,3.2,71,{},2026-04-14T16:58:16.338798+00:00
+81b89e29-584a-587a-8af0-13615213732a,The Good Bowl,Banashankari,Banashankari,"['Italian', 'North Indian', 'Biryani']",500.0,low,3.6,6,{},2026-04-14T16:58:16.338798+00:00
+2bb35e7e-19d4-5536-82b1-3a68658e06e3,The Biryani Cafe,Banashankari,Banashankari,"['Biryani', 'Chinese', 'Kebab']",300.0,low,4.1,520,{},2026-04-14T16:58:16.338798+00:00
+6014b7c3-ae2d-50bc-a699-eda77cf00fe7,Spicy Tandoor,Banashankari,Banashankari,['North Indian'],150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+6641922f-87c8-5efd-86c4-f0de9e46e530,LSD Cafe,Banashankari,Banashankari,"['Chinese', 'Continental', 'Italian', 'North Indian']",700.0,low,2.9,84,{},2026-04-14T16:58:16.338798+00:00
+8da1cadd-8e7f-5c88-951c-a90c153adb41,Rolls On Wheels,Banashankari,Banashankari,"['Fast Food', 'Rolls', 'Momos']",300.0,low,3.6,299,{},2026-04-14T16:58:16.338798+00:00
+9637863a-d3f4-5332-bd73-cdbf7530e9ac,Om Sri Vinayaka Chats,Banashankari,Banashankari,"['Street Food', 'Fast Food']",500.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+81bb048b-c5ab-5f0b-b9af-c37a50fe062d,Sri Guru Kottureshwara Davangere Benne Dosa,Banashankari,Basavanagudi,['South Indian'],150.0,low,4.1,558,{},2026-04-14T16:58:16.338798+00:00
+fa6a7492-1b9f-5d8e-a04b-8fa40d2f2cad,Devanna Dum Biriyani Centre,Banashankari,Banashankari,"['Biryani', 'South Indian']",300.0,low,3.6,28,{},2026-04-14T16:58:16.338798+00:00
+7f7b3313-acea-5b3c-a183-a7a31a62cfe3,Kolbeh,Banashankari,Banashankari,['Fast Food'],500.0,low,3.7,22,{},2026-04-14T16:58:16.338798+00:00
+3fda8b32-fcc2-57af-be03-d4b927f8bdb7,Upahar Sagar,Banashankari,Banashankari,"['South Indian', 'Chinese', 'North Indian']",350.0,low,3.8,39,{},2026-04-14T16:58:16.338798+00:00
+cf91cd9f-7bd2-5ec7-87f9-8ed16816f35f,Kadalu Sea Food Restaurant,Banashankari,Vijay Nagar,"['Seafood', 'North Indian', 'Chinese', 'Andhra', 'Biryani', 'Kebab']",500.0,low,3.8,153,{},2026-04-14T16:58:16.338798+00:00
+78fd9520-3f55-57d4-9ef8-428dfb4ae32e,Frozen Bottle,Banashankari,Banashankari,"['Beverages', 'Desserts', 'Ice Cream']",400.0,low,4.2,146,{},2026-04-14T16:58:16.338798+00:00
+6cf50f84-36d7-5a6b-897e-b85ac0585975,Parimala Sweets,Banashankari,Banashankari,"['Mithai', 'Street Food']",200.0,low,3.5,14,{},2026-04-14T16:58:16.338798+00:00
+57144d85-8246-5f9b-82a0-a9130a1d8270,Vaishali Deluxe,Banashankari,Banashankari,"['North Indian', 'Chinese']",700.0,low,3.8,42,{},2026-04-14T16:58:16.338798+00:00
+26174971-4dc3-55d0-a51c-6efb60cd85ef,Chill Out,Banashankari,Banashankari,"['South Indian', 'Chinese']",100.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+3b8970db-2eef-50c5-b4ce-cc44ac0a2edb,The Big O Bakes,Banashankari,Banashankari,"['Bakery', 'Desserts']",300.0,low,4.0,66,{},2026-04-14T16:58:16.338798+00:00
+e080fb83-b1cd-562a-ac3e-7e0d5df659a6,Meghana Foods,Banashankari,Jayanagar,"['Biryani', 'North Indian', 'Chinese']",600.0,low,4.4,4401,{},2026-04-14T16:58:16.338798+00:00
+9da0e880-fa90-5bc6-9334-d098f9ba41a9,Krishna Sagar,Banashankari,Banashankari,['North Indian'],200.0,low,3.5,31,{},2026-04-14T16:58:16.338798+00:00
+5c82dbce-5279-588f-9a5f-af0fa5ae8052,Dessert Rose,Banashankari,Banashankari,['Desserts'],500.0,low,3.5,7,{},2026-04-14T16:58:16.338798+00:00
+71f7f0e6-aeb8-55d7-b76c-8603c5f5651b,Chickpet Donne Biryani House,Banashankari,Banashankari,['Biryani'],250.0,low,3.7,21,{},2026-04-14T16:58:16.338798+00:00
+dcd1633b-8f59-5cb1-8c2b-12724b82f283,Me And My Cake,Banashankari,Banashankari,"['Bakery', 'Desserts']",500.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+fd7598c9-a287-5cff-b8ce-9168fb6ab96f,Sunsadm,Banashankari,Banashankari,['South Indian'],400.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+62e1a47b-ef17-5b4b-ba5c-34b13c3f8725,Annapooraneshwari Mess,Banashankari,Banashankari,['South Indian'],200.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+96e88901-266d-51cf-bc30-0b120e22c501,Thanco's Natural Ice Creams,Banashankari,Banashankari,['Ice Cream'],300.0,low,3.2,9,{},2026-04-14T16:58:16.338798+00:00
+d611127c-5f68-5163-a896-94349e1f997a,Nandhini Deluxe,Banashankari,Banashankari,['North Indian'],600.0,low,2.6,283,{},2026-04-14T16:58:16.338798+00:00
+ed49a707-cf59-5fb9-8035-7a084ece5462,Vi Ra's Bar and Restaurant,Banashankari,Banashankari,"['South Indian', 'North Indian', 'Chinese']",800.0,low,3.3,62,{},2026-04-14T16:58:16.338798+00:00
+fb7f8b9d-905f-52ae-943d-8b0da2691d04,Kaggis,Banashankari,Banashankari,"['Fast Food', 'Bakery']",250.0,low,3.8,64,{},2026-04-14T16:58:16.338798+00:00
+7c1c82f2-4e20-5ca6-adbe-e7316bd06de8,Ayda Persian Kitchen,Banashankari,Banashankari,"['North Indian', 'Iranian']",950.0,medium,3.7,39,{},2026-04-14T16:58:16.338798+00:00
+b023f2c2-67f4-5038-ba8e-cfd4b09f9011,Chatar Patar,Banashankari,Banashankari,"['Fast Food', 'Street Food']",300.0,low,3.7,65,{},2026-04-14T16:58:16.338798+00:00
+390ba6b2-9f32-5419-8826-cf8bd6c4260c,Polar Bear,Banashankari,Basavanagudi,"['Ice Cream', 'Desserts', 'Beverages', 'Sandwich']",400.0,low,3.8,71,{},2026-04-14T16:58:16.338798+00:00
+a551e31e-7634-5e14-8053-03165a20a055,Kidambi's Kitchen,Banashankari,Banashankari,['South Indian'],300.0,low,3.5,52,{},2026-04-14T16:58:16.338798+00:00
+e8f374de-239e-592f-a517-fd2f6ebcdb8f,Mane Thindi,Banashankari,Banashankari,['South Indian'],200.0,low,3.7,130,{},2026-04-14T16:58:16.338798+00:00
+dae1ba11-3874-550f-9946-d2b2da40c1bb,Kotian Karavali Restaurant,Banashankari,Banashankari,"['South Indian', 'Biryani']",300.0,low,3.5,10,{},2026-04-14T16:58:16.338798+00:00
+cd9d9b5c-dd32-5e4a-98b9-a3d1f39d4874,Floured-Baked With Love,Banashankari,Banashankari,['Bakery'],400.0,low,3.8,45,{},2026-04-14T16:58:16.338798+00:00
+70594565-e1d1-55f8-81fb-9c612b99e49c,Cakes & Slices,Banashankari,Banashankari,"['Bakery', 'Desserts']",300.0,low,3.5,13,{},2026-04-14T16:58:16.338798+00:00
+27c7367d-3e3e-5351-8dad-a944202aeb04,Spice 9,Banashankari,Banashankari,"['Biryani', 'North Indian', 'Chinese', 'Fast Food']",300.0,low,3.4,8,{},2026-04-14T16:58:16.338798+00:00
+0a05675d-0343-5690-b603-0566f700af49,Coffee Shopee,Banashankari,Banashankari,['Beverages'],250.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+db2a68e4-5f8a-5459-aaf5-dc200faeaa5c,Naveen Kabab & Biriyani Mane,Banashankari,Banashankari,['Biryani'],300.0,low,3.2,9,{},2026-04-14T16:58:16.338798+00:00
+6f5d91c4-8a30-59a5-bbd9-d40bad4cb8f4,Katriguppe Donne Biryani,Banashankari,Banashankari,['North Indian'],300.0,low,3.2,4,{},2026-04-14T16:58:16.338798+00:00
+b54b7ec4-2fce-5abe-9758-aa05476d268e,Hari Super Sandwich,Banashankari,Banashankari,"['Sandwich', 'Pizza', 'Beverages']",200.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+7729b1b6-ead2-5645-998a-226c9f801416,Atithi Point Ande Ka Funda,Banashankari,Banashankari,['North Indian'],150.0,low,3.1,29,{},2026-04-14T16:58:16.338798+00:00
+c06cfa0d-73f6-5fb9-a746-66e4ed806db9,Just Bake,Banashankari,Banashankari,"['Bakery', 'Desserts']",400.0,low,3.4,8,{},2026-04-14T16:58:16.338798+00:00
+53917706-7166-5ae0-b61d-0f7738e1517c,Dharwad Line Bazaar Mishra Pedha,Banashankari,Banashankari,['Mithai'],150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+cb614189-6f98-5b11-89ab-ba5d9ef61890,Cake Bite,Banashankari,Banashankari,['Bakery'],300.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+a2466c18-e242-574a-8380-d2d4ec025d90,Aarush's Food Plaza,Banashankari,Banashankari,"['North Indian', 'Street Food']",200.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+389a2cf0-27c7-5063-8018-db4aaf5f4eff,Wood Stove,Banashankari,Banashankari,['South Indian'],150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+09908190-aa22-573c-b357-d3ee73827580,Kulfi & More,Banashankari,Banashankari,"['Ice Cream', 'Desserts', 'Juices']",150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+f62e5f16-cae1-5b55-8805-dd74e48eea84,Kannadigas Karavali,Banashankari,Banashankari,"['Mangalorean', 'South Indian', 'North Indian']",250.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+4fff4099-74dd-5a23-9f0c-d2161c14d609,K27 - The Pub,Banashankari,Banashankari,"['Chinese', 'North Indian']",1.0,low,3.1,30,{},2026-04-14T16:58:16.338798+00:00
+cba47e13-422d-5224-b9c8-670625ee6eeb,Bengaluru Coffee House,Banashankari,Banashankari,"['South Indian', 'North Indian', 'Chinese', 'Street Food']",300.0,low,4.1,201,{},2026-04-14T16:58:16.338798+00:00
+838f1884-ba48-5808-a836-0e3843099e23,New Mangalore Lunch Home,Banashankari,Banashankari,"['Mangalorean', 'South Indian', 'North Indian']",200.0,low,3.3,7,{},2026-04-14T16:58:16.338798+00:00
+ab5583ff-e141-5c70-a22f-5cd23180356b,Coffee Bytes,Banashankari,Banashankari,"['Fast Food', 'South Indian']",100.0,low,3.1,6,{},2026-04-14T16:58:16.338798+00:00
+5980688a-f3ff-536e-af82-2d1eb46396ef,Parjanya Chat Zone,Banashankari,Banashankari,"['Street Food', 'Fast Food']",200.0,low,3.3,17,{},2026-04-14T16:58:16.338798+00:00
+4d8e0d11-a342-574c-afe0-78ffc3d5dd55,Kwality Wall's Swirl's Happiness Station,Banashankari,Banashankari,"['Ice Cream', 'Desserts']",200.0,low,2.9,25,{},2026-04-14T16:58:16.338798+00:00
+bc7bfdeb-f8eb-525a-b3a4-74a9f472dd5a,Soms Kitchen & Bakes,Banashankari,Banashankari,"['South Indian', 'North Indian', 'Continental']",400.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+021e47f2-f02b-55e0-b9db-f414165efea0,Banashankari Nati Style,Banashankari,Banashankari,"['Biryani', 'Chinese', 'South Indian', 'North Indian']",350.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+5d473bae-4284-5311-8176-9ee4a1a3e275,Ruchi Maayaka,Banashankari,Banashankari,['South Indian'],100.0,low,3.3,8,{},2026-04-14T16:58:16.338798+00:00
+a9e83478-933a-5222-a305-c1d6242c359b,Mohitesh Hut Roll,Banashankari,Banashankari,"['Rolls', 'North Indian']",150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+319ceb60-f2ea-5a68-b3c4-c5b2c2b36658,Sri Basaveshwar Jolada Rotti Oota,Banashankari,Banashankari,['South Indian'],150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+e7d5d4ef-677b-5153-a193-dd9726506d01,Roll Magic Fast Food,Banashankari,Banashankari,"['Biryani', 'Rolls', 'Chinese']",200.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+208c5076-fce1-5073-ab0c-3cb41e97734b,Foodlieious Multi Cuisine,Banashankari,Banashankari,['North Indian'],100.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+ecb7f198-a570-5ede-ad01-96703b6eb562,Thanishka Nati And Karavali Style,Banashankari,Banashankari,"['Biryani', 'Fast Food']",400.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+b85000dc-4e4a-5423-bd9f-b8cbc69bae9c,Swathi Cool Point,Banashankari,Banashankari,"['Beverages', 'Juices']",200.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+04b7374a-f0f6-5882-95d8-0b88bf9def82,Kaumudis Juoice,Banashankari,Banashankari,"['Beverages', 'Fast Food', 'Juices']",150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+b90fe01e-b47c-58c7-b074-0903c9e4aef3,Amma - Manae,Banashankari,Banashankari,['South Indian'],400.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+5c3b2df9-8e05-58a5-b394-fd4fe7f64603,Sri Sai Tiffannies,Banashankari,Banashankari,"['South Indian', 'Chinese']",150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+7d62dacb-793c-5115-9315-253bcfe67f31,Hotel Andhra Speices,Banashankari,Banashankari,['Andhra'],250.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+295fb450-56a7-5fff-8ab2-041b89a53fdb,Sri Murari Family Restaurant,Banashankari,Banashankari,['Biryani'],250.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+b8b5e9f2-caac-535e-af8d-00367a642a4a,Aramane Donne Biriyani,Banashankari,Banashankari,"['South Indian', 'Biryani']",150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+666494a2-2676-5754-8cfe-4769d58a66c3,Darkolates,Banashankari,Banashankari,['Desserts'],200.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+3f8fa375-38dd-52f4-95c2-e90fdaf253e5,Swaada Healthy Kitchen,Banashankari,Banashankari,"['Healthy Food', 'Juices', 'Sandwich']",350.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+c5ba7cd2-d8e6-5ff9-835a-be32899d9361,Gawdaru Mane Beriyani,Banashankari,Banashankari,"['South Indian', 'Biryani']",300.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+608c1199-77ad-5613-9295-0e5d0fa95cc0,Melting Melodies,Banashankari,Banashankari,"['Pizza', 'Fast Food']",100.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+498cb304-7ba0-5d96-be61-2360d93d7f5e,New Indraprasta,Banashankari,Banashankari,"['South Indian', 'Beverages']",150.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+6551013e-2328-53b1-81c0-644e697dca87,Anna Kuteera,Banashankari,Banashankari,"['South Indian', 'North Indian', 'Chinese']",450.0,low,4.0,771,{},2026-04-14T16:58:16.338798+00:00
+79587dfc-29b3-52ee-9647-a77a0152c5f1,Darbar,Banashankari,Banashankari,"['North Indian', 'Chinese']",800.0,low,3.0,98,{},2026-04-14T16:58:16.338798+00:00
+eec91fd1-3962-5303-8b19-cc69fe1c27e0,Vijayalakshmi,Banashankari,Basavanagudi,['South Indian'],200.0,low,3.9,47,{},2026-04-14T16:58:16.338798+00:00
+5b56eeb3-7c54-5d14-b8c7-f18aee61ecd5,Sri Udupi Food Hub,Banashankari,Jayanagar,"['South Indian', 'North Indian', 'Chinese', 'Beverages']",500.0,low,4.1,175,{},2026-04-14T16:58:16.338798+00:00
+88be5b35-fdc2-5db8-b2c3-eca438bac524,Udupi Upahar,Banashankari,Banashankari,"['South Indian', 'Chinese', 'North Indian', 'Juices']",300.0,low,3.8,58,{},2026-04-14T16:58:16.338798+00:00
+66fedd93-570c-5cc0-816f-f52d9bbc6964,House Of Kebabs,Banashankari,Basavanagudi,"['North Indian', 'Kebab', 'Biryani', 'Chinese']",650.0,low,3.8,540,{},2026-04-14T16:58:16.338798+00:00
+597f913e-ee62-5783-865f-53a36ecb68cd,Roll N Rock,Banashankari,Kumaraswamy Layout,"['Chinese', 'North Indian', 'Mughlai', 'Rolls']",400.0,low,3.8,124,{},2026-04-14T16:58:16.338798+00:00
+373d40f8-e527-55d2-a448-15784f821d2f,BOX8- Desi Meals,Banashankari,Banashankari,"['North Indian', 'Mughlai', 'Fast Food']",500.0,low,4.1,340,{},2026-04-14T16:58:16.338798+00:00
+36e68f31-0c05-5d7d-8c75-f614ccf5dbf5,KFC,Banashankari,Banashankari,"['Burger', 'Fast Food']",450.0,low,3.8,505,{},2026-04-14T16:58:16.338798+00:00
+b0842e51-a141-59a4-a0fd-18cc312817c1,Bitez,Banashankari,Banashankari,['Fast Food'],100.0,low,,0,{},2026-04-14T16:58:16.338798+00:00
+ebe38b68-490c-5aee-b88e-7f346a3c253e,Roll Over,Banashankari,Jayanagar,"['Desserts', 'Ice Cream', 'Beverages', 'Fast Food', 'Sandwich']",500.0,low,4.1,438,{},2026-04-14T16:58:16.338798+00:00
+442e47fb-8e7f-5ab3-a5cf-496b245ffb9c,Imperial Restaurant,Banashankari,Mysore Road,"['North Indian', 'Chinese', 'Biryani', 'Beverages']",750.0,low,3.7,264,{},2026-04-14T16:58:16.338798+00:00
+a6e7ba88-76b3-5591-bb07-1e8d942b49d9,Lassi Shop,Banashankari,Kumaraswamy Layout,"['Beverages', 'Juices', 'Ice Cream']",150.0,low,3.9,169,{},2026-04-14T16:58:16.338798+00:00
+0bfd597c-bf24-590b-a543-cc2fefe328d7,The Fortuna,Banashankari,Kumaraswamy Layout,"['North Indian', 'Chinese']",250.0,low,3.0,67,{},2026-04-14T16:58:16.338798+00:00
+e87d9cde-141a-5f7b-a840-f6071d6e9a21,Wahab,Banashankari,Jayanagar,"['North Indian', 'Mughlai', 'Chinese']",350.0,low,3.7,97,{},2026-04-14T16:58:16.338798+00:00
+b45a023c-80ed-52c6-891b-718b9498600a,Al Diwan Biryanis And More,Banashankari,Basavanagudi,['Biryani'],300.0,low,3.3,12,{},2026-04-14T16:58:16.338798+00:00
+2fad6857-4f30-5d9f-a61f-2b2c14bf725e,New Gowda's Fried Chicken,Banashankari,Banashankari,['Biryani'],300.0,low,3.3,12,{},2026-04-14T16:58:16.338798+00:00
+0d6c51ad-329a-56d4-9889-058a996678ab,Canton,Banashankari,Jayanagar,"['Chinese', 'Seafood', 'Biryani']",800.0,low,3.6,195,{},2026-04-14T16:58:16.338798+00:00
+cb10d5b1-be18-5177-ab1a-6072684f7c61,Diabetics Dezire Sugarless Sweets and Bakes,Banashankari,Basavanagudi,"['Desserts', 'Mithai']",300.0,low,3.3,13,{},2026-04-14T16:58:16.338798+00:00
+11437819-4d2a-5976-a74e-4942658ea866,The Blue Wagon - Kitchen,Banashankari,Jayanagar,"['Cafe', 'Beverages']",400.0,low,4.6,228,{},2026-04-14T16:58:16.338798+00:00
+88a12f3d-34dc-5d4d-b0ca-59cb566dc370,HOT COFFEE,Banashankari,Basavanagudi,"['South Indian', 'Chinese']",150.0,low,4.1,70,{},2026-04-14T16:58:16.338798+00:00
+600e7011-7b30-5b8f-be85-cd065cb052d5,Patio 805,Banashankari,Jayanagar,"['Thai', 'Vietnamese', 'Asian', 'Chinese']",1.0,low,4.1,364,{},2026-04-14T16:58:16.338798+00:00
+ce863d02-1bdd-5add-97c5-3dfffd47d9c2,Lassi Corner,Banashankari,Basavanagudi,"['Beverages', 'Ice Cream']",150.0,low,3.7,107,{},2026-04-14T16:58:16.338798+00:00
+d2ea52a6-29d5-56f5-83f9-356633d262b4,Sagar Deluxe,Banashankari,Kumaraswamy Layout,"['South Indian', 'North Indian', 'Chinese', 'Juices']",300.0,low,3.2,167,{},2026-04-14T16:58:16.338798+00:00
+7bc03299-1383-5c6e-9cea-001597573636,Kanti Sweets,Banashankari,Banashankari,"['Mithai', 'Street Food']",400.0,low,4.0,115,{},2026-04-14T16:58:16.338798+00:00
+da0250df-826a-579c-a7ef-b75005f0e161,Vegetalia,Banashankari,Banashankari,"['Italian', 'Pizza']",400.0,low,3.7,27,{},2026-04-14T16:58:16.338798+00:00
+eacd1b05-0237-5e3b-82f9-0f7433c8cc47,Aramane Donne Biryani,Banashankari,Banashankari,['Biryani'],200.0,low,3.5,57,{},2026-04-14T16:58:16.338798+00:00
+0c509fe5-5f3e-59d2-abd5-568f2b57e190,Ande Ka Funda,Banashankari,Banashankari,"['North Indian', 'Fast Food', 'Rolls']",250.0,low,3.8,120,{},2026-04-14T16:58:16.338798+00:00
+80986747-ac0e-5e84-915b-78fbae50fde4,Cake Ghar,Banashankari,Basavanagudi,['Bakery'],400.0,low,3.8,15,{},2026-04-14T16:58:16.338798+00:00
+79225bba-96e8-5e12-acaf-da2590339042,Energy Addaa,Banashankari,Basavanagudi,"['Salad', 'Healthy Food', 'Sandwich', 'Juices', 'Burger', 'Desserts', 'Pizza']",500.0,low,4.2,64,{},2026-04-14T16:58:16.338798+00:00
+3f9d1714-aa2e-58c2-8ea0-caae14c4d56d,Bhattara Bhojana,Banashankari,Banashankari,['South Indian'],150.0,low,3.6,66,{},2026-04-14T16:58:16.338798+00:00
+caa523a9-b493-543f-8c31-3a9444e3647e,Tandoori Knight,Banashankari,Banashankari,"['North Indian', 'Chinese', 'Biryani', 'Kebab']",450.0,low,3.0,290,{},2026-04-14T16:58:16.338798+00:00
+9ba4bafc-60f3-5f7a-8942-75996323c430,Dev Sagar - Food Street,Banashankari,Basavanagudi,['Street Food'],200.0,low,4.1,233,{},2026-04-14T16:58:16.338798+00:00
+97a23bce-cbe1-57dd-bfca-05ed36033665,Mitraa Da Pizza,Banashankari,Kumaraswamy Layout,"['Fast Food', 'Pizza']",250.0,low,3.8,115,{},2026-04-14T16:58:16.338798+00:00
+8c0072f6-b254-5701-a09d-a775c0d4f417,Paradise Premium,Banashankari,Banashankari,"['Biryani', 'Andhra', 'Hyderabadi', 'North Indian']",700.0,low,3.1,119,{},2026-04-14T16:58:16.338798+00:00
+9dc97b46-b69a-5499-be22-5ebab9c957e1,Grazers,Banashankari,Jayanagar,"['Cafe', 'Burger', 'Continental', 'Italian', 'Desserts']",650.0,low,3.9,291,{},2026-04-14T16:58:16.338798+00:00
+ac2c02b5-f08a-5729-8bd5-9b0f4795d428,Shakes Theory,Banashankari,Jayanagar,"['Beverages', 'Sandwich']",300.0,low,4.5,155,{},2026-04-14T16:58:16.338798+00:00
+c094205f-5699-5d98-bfd7-2876b6bb5bf9,@Italy,Banashankari,Kumaraswamy Layout,['Italian'],700.0,low,4.1,305,{},2026-04-14T16:58:16.338798+00:00
+14510929-7c62-58e3-aea0-56b267f1f484,Chilli Flakes,Banashankari,Banashankari,"['Fast Food', 'Italian', 'Beverages']",500.0,low,3.6,46,{},2026-04-14T16:58:16.338798+00:00
+b03e0ebc-808b-5417-bf8b-646c621efdf6,Calcutta Cafe,Banashankari,Kumaraswamy Layout,"['Bengali', 'Chinese', 'Sandwich']",350.0,low,3.5,45,{},2026-04-14T16:58:16.338798+00:00
+8eab2174-cc0d-5997-9153-d24d19a3d708,Old Mumbai Ice Cream,Banashankari,Banashankari,['Ice Cream'],150.0,low,3.9,38,{},2026-04-14T16:58:16.338798+00:00
+50030f48-c4a5-57f9-be00-0f7fac4e8a43,Donne Biriyani House,Banashankari,Banashankari,"['South Indian', 'North Indian', 'Chinese', 'Biryani']",400.0,low,3.9,441,{},2026-04-14T16:58:16.338798+00:00
+9ef51428-3fed-5f56-9e3e-cfc80c232ea7,By 2 Coffee,Banashankari,Basavanagudi,['South Indian'],100.0,low,3.9,25,{},2026-04-14T16:58:16.338798+00:00
+5c5e24ad-90b2-5a3d-b8b2-d058cd4b78a2,Kedia's Fun Food,Banashankari,Jayanagar,"['North Indian', 'Street Food', 'Juices']",200.0,low,4.3,630,{},2026-04-14T16:58:16.338798+00:00
+c7c37817-477a-5a20-8973-1fd5285eaded,Davangere Butter Dosa Hotel,Banashankari,Kumaraswamy Layout,['South Indian'],150.0,low,3.8,25,{},2026-04-14T16:58:16.338798+00:00
+1c3395ae-5018-50bd-aed7-f682d1c7bb42,Just Shawarma,Banashankari,Kumaraswamy Layout,['Arabian'],300.0,low,3.9,160,{},2026-04-14T16:58:16.338798+00:00
+76484aa5-bd31-58ee-b2fd-ccf6b8ff47f8,Mini Punjabi Dhaba,Banashankari,Banashankari,['North Indian'],350.0,low,4.2,287,{},2026-04-14T16:58:16.338798+00:00
+6789daa5-05e3-55fb-ae7a-be047f88b464,Mulabagilu Dosa,Banashankari,Basavanagudi,['South Indian'],100.0,low,3.6,11,{},2026-04-14T16:58:16.338798+00:00
+164cc1ef-42be-56e6-9209-bd0297cf436a,Gokul Veg,Banashankari,Basavanagudi,"['North Indian', 'Chinese', 'Beverages']",750.0,low,3.8,469,{},2026-04-14T16:58:16.338798+00:00
+517fd8c9-bc3b-5060-854b-a80003ba4b39,Olive - Era,Banashankari,Kumaraswamy Layout,"['Bbq', 'Arabian', 'Rolls', 'Chinese', 'North Indian', 'Juices', 'Kebab', 'Desserts']",550.0,low,3.3,511,{},2026-04-14T16:58:16.338798+00:00
+205be447-1125-5c33-81b7-3b5c403746a2,Udupi Ruchi,Banashankari,Banashankari,"['South Indian', 'North Indian', 'Chinese', 'Street Food']",200.0,low,3.9,57,{},2026-04-14T16:58:16.338798+00:00
+bf418007-1c20-5d02-9fef-6381f63fc8c6,Madhappa Hindu Military Hotel,Banashankari,Banashankari,['South Indian'],300.0,low,3.4,14,{},2026-04-14T16:58:16.338798+00:00
+5a750d2b-4ed0-563b-8c0d-e6a9e5446008,Gama Gama,Banashankari,Banashankari,['South Indian'],200.0,low,3.9,264,{},2026-04-14T16:58:16.338798+00:00
+eeb5ede9-aac2-5c5d-9b95-85fa676b1070,Pizza Hut,Banashankari,Banashankari,"['Pizza', 'Fast Food']",750.0,low,3.8,693,{},2026-04-14T16:58:16.338798+00:00
+32f47c06-379e-5ffe-82ea-e862e72ea1a6,Mangalore Pearl,Banashankari,Jayanagar,"['Mangalorean', 'Seafood', 'Chinese', 'Biryani']",650.0,low,3.8,242,{},2026-04-14T16:58:16.338798+00:00
+5075f277-0d58-5662-9b22-326a44821c63,Asha Sweets Centre,Banashankari,Basavanagudi,['Fast Food'],250.0,low,3.6,27,{},2026-04-14T16:58:16.338798+00:00
+7923ebaa-3835-5516-919d-8efdf2371092,Twiststick House,Banashankari,Basavanagudi,"['Continental', 'Fast Food', 'Street Food', 'Momos']",500.0,low,4.1,163,{},2026-04-14T16:58:16.338798+00:00
+0eb654d0-6681-5279-9b50-abe459620fb7,Cool Corner,Banashankari,Basavanagudi,"['Street Food', 'Fast Food']",250.0,low,4.2,191,{},2026-04-14T16:58:16.338798+00:00

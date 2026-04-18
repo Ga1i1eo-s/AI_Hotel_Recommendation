@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Reco E2E Tester</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f7fb; color: #1f2937; }
+    .container { max-width: 1080px; margin: 0 auto; padding: 24px; }
+    .panel { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); margin-bottom: 16px; }
+    h1 { margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    .field input, .field select, .field textarea { padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+    button { border: 0; background: #2563eb; color: #fff; padding: 10px 14px; border-radius: 8px; cursor: pointer; }
+    button.secondary { background: #475569; }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+    .status { margin-top: 8px; color: #475569; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+    .card { background: #fff; border-radius: 12px; padding: 14px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); border: 1px solid #e5e7eb; }
+    .title { display: flex; justify-content: space-between; gap: 12px; font-weight: 700; }
+    .meta { color: #475569; font-size: 14px; margin: 6px 0; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag { background: #e0e7ff; color: #1d4ed8; border-radius: 999px; padding: 4px 8px; font-size: 12px; }
+    .empty, .error, .box { background: #fff; padding: 16px; border-radius: 10px; }
+    .error { border: 1px solid #fecaca; color: #991b1b; }
+    .warning { color: #92400e; margin-top: 8px; font-size: 13px; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #0f172a; color: #e2e8f0; padding: 12px; border-radius: 8px; font-size: 12px; max-height: 260px; overflow: auto; }
+    .row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .small { font-size: 12px; color: #475569; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="panel">
+      <h1>AI Restaurant Recommendation - End-to-End Tester</h1>
+      <div class="grid">
+        <div class="field">
+          <label>Location</label>
+          <select id="location"></select>
+        </div>
+        <div class="field">
+          <label>Budget (max cost for two): <span id="budgetValue">2000</span></label>
+          <input id="budget" type="range" min="100" max="5000" step="50" value="2000" oninput="syncRanges()">
+        </div>
+        <div class="field">
+          <label>Cuisine</label>
+          <select id="cuisine"></select>
+        </div>
+        <div class="field">
+          <label>Minimum Rating (0-5): <span id="minRatingValue">4.0</span></label>
+          <input id="minRating" type="range" min="0" max="5" step="0.1" value="4.0" oninput="syncRanges()">
+        </div>
+      </div>
+      <div class="field" style="margin-top:12px;">
+        <label>Additional Preferences</label>
+        <textarea id="additional" rows="2">family friendly, quick service</textarea>
+      </div>
+      <div class="grid" style="margin-top:12px;">
+        <div class="field">
+          <label>Top K</label>
+          <input id="topK" type="number" min="1" max="20" value="5">
+        </div>
+      </div>
+      <div class="actions">
+        <button id="validateBtn" onclick="runValidate()">1) Validate Preferences</button>
+        <button id="shortlistBtn" class="secondary" onclick="runShortlist()">2) Shortlist Candidates</button>
+        <button id="generateBtn" onclick="generateRecommendations()">3) Generate Recommendations</button>
+        <button class="secondary" onclick="refineStricterBudget()">Regenerate with Stricter Budget</button>
+        <button class="secondary" onclick="refineHigherRating()">Regenerate with Higher Rating</button>
+      </div>
+      <div class="small">Use these buttons to test each phase endpoint independently or run full recommendation flow.</div>
+      <div id="status" class="status"></div>
+      <div id="warnings" class="warning"></div>
+    </div>
+    <div id="results"></div>
+    <div class="row" style="margin-top:16px;">
+      <div class="box">
+        <h3>Last Request Payload</h3>
+        <pre id="lastRequest">{}</pre>
+      </div>
+      <div class="box">
+        <h3>Last API Response</h3>
+        <pre id="lastResponse">{}</pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function syncRanges() {
+      const budget = document.getElementById("budget");
+      const minRating = document.getElementById("minRating");
+      document.getElementById("budgetValue").innerText = String(budget.value);
+      document.getElementById("minRatingValue").innerText = Number(minRating.value).toFixed(1);
+    }
+
+    function getPayload() {
+      return {
+        preferences: {
+          location: document.getElementById("location").value.trim(),
+          budget: Number(document.getElementById("budget").value),
+          cuisine: document.getElementById("cuisine").value.trim(),
+          min_rating: Number(document.getElementById("minRating").value),
+          additional_preferences: document.getElementById("additional").value.trim()
+        },
+        top_k: Number(document.getElementById("topK").value || 5)
+      };
+    }
+
+    async function loadLocations() {
+      const select = document.getElementById("location");
+      try {
+        const response = await fetch("/api/locations");
+        const data = await response.json();
+        const locations = Array.isArray(data.locations) ? data.locations : [];
+        if (!response.ok || locations.length === 0) {
+          throw new Error(data.detail || "Could not load locations.");
+        }
+        select.innerHTML = locations.map((name) => `<option value="${name}">${name}</option>`).join("");
+        if (locations.includes("Bangalore")) {
+          select.value = "Bangalore";
+        }
+      } catch (_) {
+        select.innerHTML = `<option value="Bangalore">Bangalore</option>`;
+      }
+    }
+
+    async function loadCuisines() {
+      const select = document.getElementById("cuisine");
+      try {
+        const response = await fetch("/api/cuisines");
+        const data = await response.json();
+        const cuisines = Array.isArray(data.cuisines) ? data.cuisines : [];
+        if (!response.ok || cuisines.length === 0) {
+          throw new Error(data.detail || "Could not load cuisines.");
+        }
+        select.innerHTML = cuisines.map((name) => `<option value="${name}">${name}</option>`).join("");
+        if (cuisines.includes("Italian")) {
+          select.value = "Italian";
+        }
+      } catch (_) {
+        select.innerHTML = `<option value="Italian">Italian</option>`;
+      }
+    }
+
+    function setStatus(text) {
+      document.getElementById("status").innerText = text || "";
+    }
+
+    function renderWarnings(warnings) {
+      const target = document.getElementById("warnings");
+      if (!warnings || warnings.length === 0) {
+        target.innerText = "";
+        return;
+      }
+      target.innerText = "Notes: " + warnings.join(" | ");
+    }
+
+    function setDebugPayload(payload) {
+      document.getElementById("lastRequest").innerText = JSON.stringify(payload, null, 2);
+    }
+
+    function setDebugResponse(data) {
+      document.getElementById("lastResponse").innerText = JSON.stringify(data, null, 2);
+    }
+
+    function renderCards(data) {
+      const container = document.getElementById("results");
+      const items = data.recommendations || [];
+      if (items.length === 0) {
+        container.innerHTML = `
+          <div class="empty">
+            <h3>No recommendations found</h3>
+            <p>Try lowering minimum rating, changing cuisine, or increasing budget range.</p>
+          </div>
+        `;
+        return;
+      }
+
+      const cards = items.map(item => {
+        const c = item.candidate;
+        const tags = []
+          .concat(item.match_tags || [])
+          .concat((item.candidate.rating || 0) >= 4.2 ? ["Highly Rated"] : [])
+          .concat((item.match_tags || []).includes("budget_fit") ? ["Budget Fit"] : [])
+          .concat((data.canonical_preferences.additional_preference_tags || []).includes("family_friendly") ? ["Family Friendly"] : []);
+
+        return `
+          <div class="card">
+            <div class="title">
+              <span>${item.rank}. ${c.name}</span>
+              <span>${c.rating ?? "N/A"} ⭐</span>
+            </div>
+            <div class="meta"><strong>Cuisine:</strong> ${(c.cuisines || []).join(", ") || "N/A"}</div>
+            <div class="meta"><strong>Estimated Cost:</strong> ${c.avg_cost_for_two ?? "N/A"} for two</div>
+            <div class="meta"><strong>Location:</strong> ${c.city}, ${c.area}</div>
+            <div class="meta"><strong>Why recommended:</strong> ${item.reason}</div>
+            <div class="tags">${tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
+          </div>
+        `;
+      }).join("");
+
+      container.innerHTML = `<div class="cards">${cards}</div>`;
+    }
+
+    async function generateRecommendations() {
+      const button = document.getElementById("generateBtn");
+      button.disabled = true;
+      setStatus("Generating recommendations...");
+      document.getElementById("warnings").innerText = "";
+      try {
+        const payload = getPayload();
+        setDebugPayload(payload);
+        const res = await fetch("/api/recommendations/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        setDebugResponse(data);
+        if (!res.ok) {
+          throw new Error(data.detail || "Failed to generate recommendations.");
+        }
+        renderWarnings(data.warnings);
+        renderCards(data);
+        setStatus(data.llm_used ? "Generated using LLM." : "Generated using deterministic fallback.");
+      } catch (error) {
+        document.getElementById("results").innerHTML = `<div class="error">${error.message}</div>`;
+        setStatus("Request failed.");
+      } finally {
+        button.disabled = false;
+      }
+    }
+
+    async function runValidate() {
+      const button = document.getElementById("validateBtn");
+      button.disabled = true;
+      setStatus("Validating preferences...");
+      try {
+        const flowPayload = getPayload();
+        const payload = flowPayload.preferences;
+        setDebugPayload(payload);
+        const res = await fetch("/api/preferences/validate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        setDebugResponse(data);
+        if (!res.ok) throw new Error(data.detail || "Validation failed.");
+        renderWarnings(data.warnings);
+        document.getElementById("results").innerHTML = `<div class="box"><h3>Validation Successful</h3><p>Preferences are valid and canonicalized.</p></div>`;
+        setStatus("Validation successful.");
+      } catch (error) {
+        document.getElementById("results").innerHTML = `<div class="error">${error.message}</div>`;
+        setStatus("Validation failed.");
+      } finally {
+        button.disabled = false;
+      }
+    }
+
+    async function runShortlist() {
+      const button = document.getElementById("shortlistBtn");
+      button.disabled = true;
+      setStatus("Fetching shortlist...");
+      try {
+        const payload = {
+          preferences: getPayload().preferences
+        };
+        setDebugPayload(payload);
+        const res = await fetch("/api/candidates/shortlist", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        setDebugResponse(data);
+        if (!res.ok) throw new Error(data.detail || "Shortlist request failed.");
+        renderWarnings(data.warnings);
+
+        const items = data.shortlisted_candidates || [];
+        if (!items.length) {
+          document.getElementById("results").innerHTML = `<div class="empty"><h3>No shortlisted candidates</h3><p>Try relaxing location/cuisine/rating.</p></div>`;
+        } else {
+          const preview = items.slice(0, 8).map((c, i) => `
+            <div class="card">
+              <div class="title"><span>${i + 1}. ${c.name}</span><span>${c.rating ?? "N/A"} ⭐</span></div>
+              <div class="meta"><strong>Cuisine:</strong> ${(c.cuisines || []).join(", ")}</div>
+              <div class="meta"><strong>Estimated Cost:</strong> ${c.avg_cost_for_two ?? "N/A"} for two</div>
+              <div class="meta"><strong>Fit Score:</strong> ${c.fit_score}</div>
+            </div>
+          `).join("");
+          document.getElementById("results").innerHTML = `<div class="cards">${preview}</div>`;
+        }
+        setStatus(`Shortlist fetched (${items.length} candidates).`);
+      } catch (error) {
+        document.getElementById("results").innerHTML = `<div class="error">${error.message}</div>`;
+        setStatus("Shortlist failed.");
+      } finally {
+        button.disabled = false;
+      }
+    }
+
+    function refineStricterBudget() {
+      const budgetInput = document.getElementById("budget");
+      const current = Number(budgetInput.value || 0);
+      budgetInput.value = String(Math.max(1, Math.round(current - 200)));
+      generateRecommendations();
+    }
+
+    function refineHigherRating() {
+      const input = document.getElementById("minRating");
+      const current = Number(input.value || 0);
+      input.value = Math.min(5, current + 0.2).toFixed(1);
+      generateRecommendations();
+    }
+
+    loadLocations();
+    loadCuisines();
+    syncRanges();
+  </script>
+</body>
+</html>

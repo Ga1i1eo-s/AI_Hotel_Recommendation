@@ -1,0 +1,8 @@
+datasets
+pandas
+sqlalchemy
+fastapi
+uvicorn
+requests
+python-dotenv
+streamlit

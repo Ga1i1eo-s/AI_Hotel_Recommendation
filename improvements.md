@@ -1,0 +1,3 @@
+-In location we should show user dropdown for which we can select location.
+-In budget numerical value we can input rather than low,medium,high(Change the logic in prompt as well)
+-Shortlist size is not required ,we can fix amount of restaurants we are sending to model

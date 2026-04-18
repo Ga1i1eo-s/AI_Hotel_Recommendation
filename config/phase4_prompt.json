@@ -1,0 +1,14 @@
+{
+  "prompt_version": "v1",
+  "max_reason_words": 50,
+  "default_top_k": 5,
+  "llm": {
+    "provider": "groq",
+    "api_url": "https://api.groq.com/openai/v1/chat/completions",
+    "model": "llama-3.3-70b-versatile",
+    "fallback_model": "llama-3.3-70b-versatile",
+    "temperature": 0.2,
+    "timeout_seconds": 30,
+    "max_retries": 2
+  }
+}

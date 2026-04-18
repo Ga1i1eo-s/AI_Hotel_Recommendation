@@ -1,0 +1,20 @@
+{
+  "raw_row_count": 51717,
+  "canonical_row_count": 33078,
+  "empty_name_count": 0,
+  "duplicate_restaurant_id_count": 0,
+  "null_count_by_field": {
+    "restaurant_id": 0,
+    "name": 0,
+    "city": 0,
+    "area": 0,
+    "cuisines": 0,
+    "avg_cost_for_two": 213,
+    "budget_band": 0,
+    "rating": 7182,
+    "rating_count": 0,
+    "attributes": 0,
+    "source_updated_at": 0
+  },
+  "generated_at_utc": "2026-04-14T16:58:20.299479+00:00"
+}

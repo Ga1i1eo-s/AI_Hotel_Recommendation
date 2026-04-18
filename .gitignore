@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/.tools/
+frontend/.env.local
+
+# OS/editor
+.DS_Store
+Thumbs.db

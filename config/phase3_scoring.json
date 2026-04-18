@@ -1,0 +1,11 @@
+{
+  "weights": {
+    "cuisine_match": 0.35,
+    "rating_norm": 0.3,
+    "budget_fit": 0.2,
+    "popularity_norm": 0.15
+  },
+  "default_shortlist_size": 20,
+  "min_desired_candidates": 20,
+  "dedup_strategy": "name_area"
+}
