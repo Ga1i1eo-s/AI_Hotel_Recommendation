@@ -11,4 +11,11 @@ services:
       - key: NEXT_PUBLIC_API_BASE_URL
         sync: false
 
-
+  - type: web
+    name: culinary-ai-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
