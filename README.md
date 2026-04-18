@@ -100,6 +100,16 @@ The Next.js frontend is fully optimized for Vercel deployment.
    - `NEXT_PUBLIC_API_BASE_URL` = `<your_deployed_backend_url>`
 5. Click **Deploy**.
 
+### Deploy Frontend to Render
+
+The frontend is also pre-configured for one-click deployment on [Render](https://render.com).
+
+1. Push your repository to GitHub.
+2. In the Render Dashboard, click **New +** and select **Blueprint**.
+3. Connect your GitHub repository. Render will automatically detect the `render.yaml` file in the root directory.
+4. Render will prompt you to enter the `NEXT_PUBLIC_API_BASE_URL` value. Enter your backend URL.
+5. Click **Apply**. Render will automatically build and deploy the Next.js frontend!
+
 ## Streamlit Backend Deployment
 
 The repository now includes a Streamlit backend console in `streamlit_app.py` for deploying backend recommendation workflow on Streamlit Cloud.
