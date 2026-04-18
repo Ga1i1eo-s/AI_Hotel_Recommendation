@@ -110,6 +110,20 @@ The frontend is also pre-configured for one-click deployment on [Render](https:/
 4. Render will prompt you to enter the `NEXT_PUBLIC_API_BASE_URL` value. Enter your backend URL.
 5. Click **Apply**. Render will automatically build and deploy the Next.js frontend!
 
+### Deploy Frontend to Railway
+
+Railway is fantastic for monorepos like this one.
+
+1. Push your repository to GitHub.
+2. In [Railway](https://railway.app/), click **New Project** -> **Deploy from GitHub repo**.
+3. Select this repository.
+4. Once added, click on the newly created service block.
+5. Go to the **Settings** tab.
+6. Scroll down to **Root Directory** and type `/frontend`.
+7. Go to the **Variables** tab and add:
+   - `NEXT_PUBLIC_API_BASE_URL` = `<your_deployed_backend_url>`
+8. Railway will automatically rebuild the service using Next.js!
+
 ## Streamlit Backend Deployment
 
 The repository now includes a Streamlit backend console in `streamlit_app.py` for deploying backend recommendation workflow on Streamlit Cloud.
